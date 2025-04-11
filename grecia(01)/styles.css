@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    background-size: cover;  
+    background-position: center; 
+    background-repeat: no-repeat;
+    filter: brightness(0.8) contrast(1.2);
+}
+
+
+h2 {
+    color: #0056b3;
+}
+
+footer {
+    background-color: #343a40;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 30px 0;
+}
+
+section img {
+    max-height: 400px;
+    object-fit: cover;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+/* Reset de estilo de imagem */
+img {
+    max-width: 100%; /* Garante que as imagens se ajustem corretamente ao contêiner */
+    height: auto;    /* Mantém a proporção da imagem */
+}
+
+/* Estilo para imagens da seção de navegação */
+#navegacao img {
+    width: 100%; /* Faz as imagens ocuparem todo o espaço do contêiner */
+    max-width: 150px; /* Limita o tamanho das imagens */
+    height: auto;    /* Mantém a proporção */
+    border-radius: 15px; /* Bordas arredondadas */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Efeito de transição suave para o hover */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+}
+
+/* Efeito ao passar o mouse (hover) nas imagens */
+#navegacao img:hover {
+    transform: scale(1.1); /* Aumenta a imagem levemente */
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3); /* Aumenta a sombra ao passar o mouse */
+}
+
+/* Imagem de fundo do cabeçalho */
+.hero {
+    background-image: url('imagem/grecia-background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px; /* Altura do cabeçalho */
+    position: relative;
+}
+
+/* Estilo do título e do texto sobre a imagem */
+.hero h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero p {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 1.25rem;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Imagens em tamanho maior nas seções de conteúdo */
+section img {
+    border-radius: 10px;  /* Bordas arredondadas */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: transform 0.3s ease; /* Transição suave para o hover */
+}
+
+/* Efeito hover nas imagens das seções de conteúdo */
+section img:hover {
+    transform: scale(1.05); /* Aumenta a imagem levemente */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15); /* Aumenta a sombra */
+}
+
+/* Imagens nos cards de conteúdo (se houver) */
+.card img {
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efeito hover nas imagens dentro dos cards */
+.card img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+h1{
+    margin-left: 50px;
+}
+
